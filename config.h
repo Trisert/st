@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FiraCode Retina:pixelsize=13.5:antialias=true:autohint=true";
+static char *font = "JetBrainsMono Nerd Font:pixelsize=13.5:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
 	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", 
@@ -49,7 +49,7 @@ int allowaltscreen = 1;
 
 /* frames per second st should at maximum draw to the screen */
 static unsigned int xfps = 120;
-static unsigned int actionfps = 30;
+static unsigned int actionfps = 40;
 
 /*
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
